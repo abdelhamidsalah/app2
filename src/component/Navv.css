@@ -1,0 +1,27 @@
+#navv{
+    background-color: var(--scolor) !important;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+#navv img{
+    width: 40%;
+}
+#items #item{
+    color: white;
+    font-weight: 500;
+    padding-left: 1.6em;
+}
+@media (max-width:541px){
+    #navv{
+        position: relative;
+    }
+    #but{
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+}

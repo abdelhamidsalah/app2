@@ -1,0 +1,383 @@
+#head{
+    display: flex;
+    margin-top: 6rem;
+    width: 100%;
+    
+    align-items: center;
+    justify-content: space-between;
+    gap: 6rem;
+}
+@media(min-width:479px) and (max-width:768px){
+   #head{
+      display: flex;
+      flex-direction: column;
+   }
+}
+@media (min-width:368px) and (max-width:768px){
+  #right img{
+   width: 23rem;
+  }
+  #right #circle{
+   width: 20em;
+   height: 20rem;
+  }
+  #head{
+   display: flex;
+   flex-direction: column;
+}
+}
+@media(min-width:768px) and (max-width:992px){
+  #head #right{
+   margin-left: -6em;
+  }
+  #right img{
+   width: 17rem;
+  }
+  #right #circle{
+   width: 13em;
+   height: 13rem;
+  }
+}
+@media(min-width:992px) and (max-width:1310px){
+  #head{
+   width: 100%;
+  }
+  #head #right{
+      margin-left: -5em;
+   }
+}
+
+@media (max-width:368px){
+   #right img{
+    width: 18rem;
+   }
+   #right #circle{
+    width: 15em;
+    height: 15rem;
+   }
+   #head{
+    display: flex;
+    flex-direction: column;
+ }
+ }
+#w1{
+    margin-bottom: 40px;
+}
+#w1 h6{
+    color: #ffb317;
+   
+}
+#w1 h1{
+    width: 80%;
+    font-size: 3em;
+    color: white;
+    word-spacing: 2px;
+  
+   
+}
+#w1 p{
+    color: rgb(166, 165, 165);
+    width: 80%;
+    padding: 1.9rem 0;
+    line-height: 24px;
+}
+#w1 #lin1{
+    background-color: var(--scolor);
+    margin: 0 auto;
+    padding: 0.9rem 2rem;
+    margin: 2em 0 1em 0;
+    color: white;
+    border-radius: 1.5rem;
+}
+#w1 #lin1:hover{
+    background-color: #ffb317;
+    color: black;
+    
+    transition: 0.5s;
+}
+#circle{
+    width: 25rem;
+    height: 25rem;
+    background: linear-gradient(75deg , #ffb317 , transparent);
+    border-radius: 50%;
+    filter: blur(10px);
+}
+#right{
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+#right img{
+    position: relative;
+    
+}
+#circle{
+    position: absolute;
+   
+}
+
+
+
+
+#val #vimg{
+   margin-top: 4em;
+   
+}
+ #val{
+    margin-top: 9em;
+    display: flex;
+ }
+  #vvv{
+   margin-left: 9em;
+  }
+ #val #vt{
+    color: white;
+ }
+ #val #vx{
+    color: grey;
+ }
+ #vals{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 30px;
+    margin-left: 9em;
+ }
+ #vals1 , #vals2 , #vals3 , #vals4{
+    background-color: #242457;
+    text-align: center;
+    border-radius: 0rem 1.4rem;
+ }
+ #vals h3{
+    color: white;
+    padding: 1.1em 1.1em;
+    font-size: 1.6em;
+ }
+ #vals span{
+    color: rgb(179, 179, 179);
+    padding: 1.2em 1.2em;
+    font-size: 1.1em;
+ }
+ #vals p{
+    background-color: var(--scolor);
+    padding: 1.1em 1.1em;
+    color: white;
+    width: 20%;
+    margin: auto;
+    margin-top: 2em;
+    border-radius: 1.1em 1.1em;
+ }
+ #val #sv{
+    color: rgb(179, 179, 179);
+    padding: 1.1em 1.1em;
+    margin-left: 9em;
+ }
+ #vvv{
+    display: flex;
+    align-items: center;
+ }
+ #vvv h2{
+    color: white;
+    padding-left: 1.1em;
+ }
+ #vvv i{
+    color: white;
+    background-color: var(--scolor);
+    padding: 1.2em 1.2em;
+    border-radius: 1.4rem 1.4rem;
+ }
+@media(max-width:800px){
+   #val{
+      display: flex;
+      flex-direction: column;
+   }
+   #val #vimg img{
+ width: 70%;
+display: block;
+margin: auto;
+   }
+   #vals{
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+   }
+   #vvv{
+      margin-top: 3em;
+      margin: auto;
+   }
+   #val #sv{
+      margin: auto;
+   }
+}
+@media(min-width:800px) and (max-width:1200px){
+  
+   #val #vimg img{
+ width: 100%;
+display: block;
+margin: auto;
+   }
+   #vals{
+      display: flex;
+      flex-direction: column;
+   }
+}
+@media(min-width:1200px) and (max-width:1500px){
+   #vals{
+      display: flex;
+      flex-direction: column;
+   }
+   #val #vimg img{
+      width: 90%;
+      margin-top: 5em;
+        }
+}
+
+ #acc{
+    margin-top: 9em;
+    
+ }
+ #accc{
+    display: flex;
+    justify-content: space-between;
+ }
+ @media (max-width:768px){
+   #accc{
+      display: flex;
+      flex-direction: column;
+   }
+   #acc2{
+      margin-top: 3em;
+   }
+   #aci1 , #aci2 , #aci3, #aci4 , #aci5 , #aci6{
+      width: 100%
+   }
+ }
+ @media(min-width:768px) and (max-width:992px){
+   #aci1 , #aci2 , #aci3, #aci4 , #aci5 , #aci6{
+      width: 100%;
+      
+   }
+   #accc{
+      display: flex;
+      flex-direction: column;
+   }
+   #acc2{
+      margin-top: 3em;
+   }
+ }
+ @media(min-width:992px) and (max-width:1310px){
+   #aci1 , #aci2 , #aci3, #aci4 , #aci5 , #aci6{
+      width: 90%
+   }
+   #acc1 , #acc2{
+      display: block;
+      margin: auto;
+   }
+ }
+ #acc1 , #acc2{
+    width: 100%;
+ }
+ #aci1 , #aci2 , #aci3 , #aci4 , #aci5 , #aci6{
+    background-color: #242457;
+    color: white;
+ }
+ #aci2 , #aci5{
+    margin: 1.2em 0em;
+ }
+ @media(min-width:1310px) and (max-width:5000px){
+   #acc2{
+      margin-left: 23px;
+   }
+ }
+
+
+
+ #programs{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr;
+   margin-top: 8em;
+   gap: 10px 40px;
+   margin-bottom: 3em;
+   width: 100%;
+ }
+ @media(max-width:767px){
+   #programs{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+   }
+   #programs #p1 a, #programs #p2 a,  #programs #p3 a,  #programs #p4 a{
+      text-align: center;
+   }
+ }
+ @media(min-width:767px) and (max-width:1200px){
+   #programs{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows:  1fr 1fr;
+   }
+   #programs #p1 a, #programs #p2 a,  #programs #p3 a,  #programs #p4 a{
+      text-align: center;
+      width: 70%;
+   }
+ }
+ #programs #p1 , #programs #p2 ,  #programs #p3 ,  #programs #p4{
+   background-color: #242457;
+   padding: 1.5em 1.5em;
+   border-radius: 0rem 1.6rem;
+ }
+ #programs #p1:hover , #programs #p2:hover ,  #programs #p3:hover ,  #programs #p4:hover{
+   background-color: var(--mcolor);
+   border: 1px white solid;
+   transition: 0.6s;
+ }
+ #programs #p1 p , #programs #p2 p,  #programs #p3 p,  #programs #p4 p{
+   color: white;
+   background-color: var(--scolor);
+   padding: 1.2em 1.2em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 20%;
+   margin: auto;
+   border-radius: 1.2rem 1.2rem;
+ }
+ #programs #p1 span , #programs #p2 span,  #programs #p3 span,  #programs #p4 span{
+   color: white;
+   text-align: center;
+   padding: 1.2em 1.2em;
+ }
+ #programs #p1 h2 , #programs #p2 h2,  #programs #p3 h2,  #programs #p4 h2{
+   color: white;
+   text-align: center;
+   padding: 1.2em 1.2em;
+ }
+ #programs #p1 a, #programs #p2 a,  #programs #p3 a,  #programs #p4 a{
+   background-color: var(--scolor);
+   padding: 1.2rem 1.2rem;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   display: block;
+   width: 60%;
+   border-radius: 1.2rem 1.2rem;
+   color: white;
+ }
+ #tit h6{
+   color: white;
+   background-color: var(--scolor);
+   padding: 1.2em 1.2em;
+   border-radius: 1.3rem 1.3rem;
+ }
+ #tit h2{
+   color: white;
+   margin-left: 1.4em;
+ }
+ #tit{
+   display: flex;
+   margin-top: 5em;
+ }
+
+

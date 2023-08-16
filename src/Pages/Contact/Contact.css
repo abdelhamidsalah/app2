@@ -1,0 +1,76 @@
+#get{
+    background: url('../../component/Photos/header_bg_2.jpg') center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+#get::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.427);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#get h3{
+    color: white;
+    text-align: center;
+    position: absolute;
+    font-size: 1.7em;
+    top: 30%;
+    width: 100%;
+}
+#get p{
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+    width: 37%;
+    margin: auto;
+    line-height: 24px;
+    position: absolute;
+    top: 50%;
+    right: 33%;
+}
+#socials i{
+    color: white;
+    font-size: 1.4em;
+    background-color: var(--scolor);
+    margin: 1.2rem 1.2rem;
+    padding: 1.5rem 1.5rem;
+    border-radius: 1.3rem 1.3rem;
+}
+#socials{
+    display: flex;
+    justify-content: center;
+    margin-top: 9em;
+}
+#socials i:hover{
+    background-color: var(--mcolor);
+    
+    transition: 0.5s;
+}
+@media (max-width:320px){
+    #socials{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media (max-width:500px){
+    #get{
+        position: relative;
+    }
+    #get h3{
+        position: absolute;
+       width: 100%;
+        top: 20%;
+    }
+    #get p{
+       position: absolute;
+       top: 40%;
+       width: 100%;
+       right: 1%;
+    }
+}
